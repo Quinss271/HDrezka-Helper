@@ -11,7 +11,7 @@
       }
    ],
    "content_scripts": [{
-      "matches": [ "https://hdrezka.cm/*", "https://rezka.ag/*", "https://hdrezka.ag/*", "https://hdrezka.me/*" ],
+      "matches": [ "https://hdrezka.cm/*", "https://rezka.ag/*", "https://hdrezka.ag/*", "https://hdrezka.me/*"  ],
       "js": ["script.js"],
       "run_at": "document_end"
    },
