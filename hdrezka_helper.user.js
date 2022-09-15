@@ -56,7 +56,7 @@ const locale = {
 	"subtitles": "Субтитри"
   }
 }
-
+$(".b-post__rating_table").css("margin-left", "-10%")
 function get_message(name, default_="en"){
   var userLang = (navigator.language || navigator.userLanguage).slice(0,2).toLowerCase();
   if (Object.keys(locale).includes(userLang) && Object.keys(locale[userLang]).includes(name)){
